@@ -1,0 +1,20 @@
+{
+  "name": "Hacker-Rank-Preparation-Kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedFakharABbas/Hacker-Rank-Preparation-Kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedFakharABbas/Hacker-Rank-Preparation-Kit/issues"
+  },
+  "homepage": "https://github.com/AhmedFakharABbas/Hacker-Rank-Preparation-Kit#readme"
+}
