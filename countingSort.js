@@ -11,3 +11,4 @@ const a = [1, 1, 3, 4, 1];
 console.log(countingSort(a))
 
 //yet not fixed
+//its not working yet 
