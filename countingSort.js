@@ -19,7 +19,16 @@ function countingSort(arr) {
   }
   return result
   }
+  //my code according to hackerrank that is not fixed yet
 //her is the corrected verstion according to chatgpt 
+function countingSort(arr) {
+    const frequencyArray = new Array(100).fill(0);
+
+    // Count the occurrences of each element in the input array
+    for (let i = 0; i < arr.length; i++) {
+        frequencyArray[arr[i]]++;
+    }
+  }
 //yet not fixed
 //
 
