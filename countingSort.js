@@ -29,8 +29,4 @@ function countingSort(arr) {
         frequencyArray[arr[i]]++;
     }
   }
-//yet not fixed
-//
-
-//
 //
