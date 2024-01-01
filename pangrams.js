@@ -8,6 +8,7 @@ function pangrams(s) {
             pangram=false
                 break 
             
+                
            
         }
     }
