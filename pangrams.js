@@ -36,3 +36,5 @@ function pangrams(s) {
 console.log(pangrams('We promptly judged antique ivory buckles for the next prize'))
 //upercase comes up with ()
 
+
+
