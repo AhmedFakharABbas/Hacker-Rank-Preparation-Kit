@@ -1,14 +1,25 @@
 function twoArrays(k, A, B) {
-  A.sort(a - b);
-  B.sort(b - a);
-  let res = "NO";
-  for (let i = 0; i < a.length; i++) {
-    let result = a[i] + b[i];
-    if (result >= k) {
-      res = "YES";
+    // Sort array A in ascending order
+    A.sort((a, b) => a - b);
+
+    // Sort array B in descending order
+    B.sort((a, b) => b - a);
+
+    // Check if there exist elements in A and B such that A[i] + B[i] < k for any i
+    for (let i = 0; i < A.length; i++) {
+        if (A[i] + B[i] < k) {
+            return "NO";
+        }
     }
-    return res;
-  }
-  // Write your code here
+
+    // If the loop completes, it means A[i] + B[i] >= k for all i
+    return "YES";
 }
-console.log(twoArrays(10, [1, 2, 3], [1, 6, 8]));
+
+// Example usage:
+const kValue = 10;
+const arrayA = [2, 1, 3];
+const arrayB = [7, 8, 9];
+
+const result = twoArrays(kValue, arrayA, arrayB);
+console.log(result); // Output: YES or NO
