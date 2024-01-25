@@ -11,4 +11,4 @@ function twoArrays(k, A, B) {
   }
   // Write your code here
 }
-twoArrays(10, [1, 2, 3], [1, 6, 8]);
+console.log(twoArrays(10, [1, 2, 3], [1, 6, 8]));
