@@ -1,6 +1,6 @@
 function twoArrays(k, A, B) {
-  let a = A.reverse();
-  let b = B.reverse();
+  A.sort(a - b);
+  B.sort(b - a);
   let res = "NO";
   for (let i = 0; i < a.length; i++) {
     let result = a[i] + b[i];
