@@ -11,6 +11,7 @@ function twoArrays(k, A, B) {
             return "NO";
         }
     }
+    // If the loop completes, it means A[i] + B[i] >= k for all i
 
     // If the loop completes, it means A[i] + B[i] >= k for all i
     return "YES";
