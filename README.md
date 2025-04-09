@@ -33,7 +33,7 @@ This repository contains solutions for various **HackerRank** problems written i
 Make sure you have Node.js installed on your machine.
   
 
-📌 Notes
+**📌 Notes**
 
 - Ideal for beginners preparing for coding interviews or improving their problem-solving skills.
 - Contributions are welcome! Feel free to fork and submit pull requests.
