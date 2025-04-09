@@ -21,17 +21,17 @@ This repository contains solutions for various **HackerRank** problems written i
 2. **Run Any Solution**
    You can run any solution file using Node.js:
 
-   ````bash
-   node filename.js
+   ```bash
+      node filename.js
    ```
-
+   
    Example
+
    ```bash
    node solveMeFirst.js
-   ```
-
-   Make sure you have Node.js installed on your machine.
-   ````
+    ```
+Make sure you have Node.js installed on your machine.
+  
 
 📌 Notes
 
