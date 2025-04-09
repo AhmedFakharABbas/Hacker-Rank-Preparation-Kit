@@ -23,11 +23,12 @@ This repository contains solutions for various **HackerRank** problems written i
 
    ````bash
    node filename.js
-
+   ```
 
    Example
    ```bash
    node solveMeFirst.js
+   ```
 
    Make sure you have Node.js installed on your machine.
    ````
