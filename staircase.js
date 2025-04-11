@@ -1,21 +1,20 @@
 function staircase(n) {
   for (let i = 0; i < n; i++) {
-    let arr = [];
-    for (let z = 0; z < n; z++) {
-      arr.push(' ');
-    }
-    for (let j = 0; j <= i; j++) {
-    //   console.log(arr);
+    for (let i = 1; i <= n; i++) {
+      let line = '';
 
-      //   console.log('i ', i);
-      //   console.log('j ', j);
-      //   console.log('n ', n);
+      // Add spaces
+      for (let j = 0; j < n - i; j++) {
+        line += ' ';
+      }
 
-      arr.push('*');
-      //   console.log(arr);
-      //   console.log('----------------');
+      // Add stars
+      for (let k = 0; k < i; k++) {
+        line += '*';
+      }
+
+      console.log(line);
     }
-    console.log(arr.join(''));
   }
 }
 staircase(3);
