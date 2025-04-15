@@ -1,20 +1,20 @@
 function twoArrays(k, A, B) {
-    // Sort array A in ascending order
-    A.sort((a, b) => a - b);
+  // Sort array A in ascending order
+  A.sort((a, b) => a - b);
 
-    // Sort array B in descending order
-    B.sort((a, b) => b - a);
+  // Sort array B in descending order
+  B.sort((a, b) => b - a);
 
-    // Check if there exist elements in A and B such that A[i] + B[i] < k for any i
-    for (let i = 0; i < A.length; i++) {
-        if (A[i] + B[i] < k) {
-            return "NO";
-        }
+  // Check if there exist elements in A and B such that A[i] + B[i] < k for any i
+  for (let i = 0; i < A.length; i++) {
+    if (A[i] + B[i] < k) {
+      return 'NO';
     }
-    // If the loop completes, it means A[i] + B[i] >= k for all i
+  }
+  // If the loop completes, it means A[i] + B[i] >= k for all i
 
-    // If the loop completes, it means A[i] + B[i] >= k for all i
-    return "YES";
+  // If the loop completes, it means A[i] + B[i] >= k for all i
+  return 'YES';
 }
 
 // Example usage:
