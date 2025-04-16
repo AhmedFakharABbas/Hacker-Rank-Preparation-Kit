@@ -1,13 +1,11 @@
 function flippingBits(n) {
- const binaryString = n.toString(2);
-const paddedBinaryString = binaryString.padStart(32, '0');
+  const binaryString = n.toString(2);
+  const paddedBinaryString = binaryString.padStart(32, '0');
 
-const flippedBinaryString = paddedBinaryString
+  const flippedBinaryString = paddedBinaryString
     .split('')
-    .map(bit => (bit === '1' ? '0' : '1'))
+    .map((bit) => (bit === '1' ? '0' : '1'))
     .join('');
-return parseInt(flippedBinaryString, 2);
-
-
+  return parseInt(flippedBinaryString, 2);
 }
-console.log(flippingBits(3))
+console.log(flippingBits(3));
