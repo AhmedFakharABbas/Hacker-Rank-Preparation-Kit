@@ -9,4 +9,10 @@ function birthdayCakeCandles(candles) {
 
   console.log(maxCount);
 }
+const optimizedfucntion = (candles) => {
+  let max = Math.max(...candles);
+  let maxCount = candles.filter((candle) => candle === max).length;
+  console.log(maxCount);
+};
 birthdayCakeCandles([4, 4, 1, 3]);
+optimizedfucntion([4, 4, 1, 3]);
