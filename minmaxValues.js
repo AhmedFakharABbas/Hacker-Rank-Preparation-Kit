@@ -17,4 +17,11 @@ function minmaxSum(arr) {
 
   console.log(minCount - maxNumber, maxCount - minNumber);
 }
+function optimizedMaxMin(arr) {
+  const total = arr.reduce((sum, number) => sum + number);
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
+  console.log(total - max, total - min);
+}
+optimizedMaxMin([1, 3, 5, 7, 9]);
 minmaxSum([1, 3, 5, 7, 9]);
