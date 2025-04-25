@@ -15,7 +15,6 @@ function minmaxSum(arr) {
     }
   });
 
-  console.log(maxCount - minNumber);
-  console.log(minCount - maxNumber);
+  console.log(minCount - maxNumber, maxCount - minNumber);
 }
 minmaxSum([1, 3, 5, 7, 9]);
