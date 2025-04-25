@@ -8,6 +8,7 @@ function timeConversion(s) {
   console.log('houminutesrs', minutes);
   console.log('secondTime', secondTime);
 
+  
   if (secondTime.includes('AM')) {
     console.log('time is in AM');
     // const zick = s.split(':');
