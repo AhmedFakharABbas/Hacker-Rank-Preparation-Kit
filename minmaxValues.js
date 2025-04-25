@@ -1,7 +1,6 @@
 const ja = function minmaxSum(arr) {
-  console.log('arr', arr);
   let maxNumber = 0;
-  let minNumber = 0;
+  let minNumber;
   let maxCount = 0;
   let minCount = 0;
 
@@ -9,15 +8,14 @@ const ja = function minmaxSum(arr) {
     maxCount = maxCount + element;
     minCount = minCount + element;
     if (element > maxNumber) {
-      maxNumber = maxNumber;
+      maxNumber = element;
     }
-    if (element < minNumber) {
-      minNumber = minNumber;
+    if (element < minNumber || !minNumber) {
+      minNumber = element;
     }
   });
-  console.log('minNumber', minNumber);
-  console.log('maxNumber', maxNumber);
-  console.log('maxCount', maxCount);
-  console.log('minCount', minCount);
+
+  console.log(maxCount - minNumber);
+  console.log(minCount - maxNumber);
 };
 ja([1, 3, 5, 7, 9]);
