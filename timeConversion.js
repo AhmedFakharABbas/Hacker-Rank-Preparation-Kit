@@ -10,8 +10,6 @@ function timeConversion(s) {
 
   if (secondTime.includes('AM')) {
     console.log('time is in AM');
-    // const zick = s.split(':');
-    // console.log('jack', zick);
     hours = hours - 12;
     if (hours == 0) {
       hours = '00';
