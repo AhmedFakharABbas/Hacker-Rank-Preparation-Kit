@@ -4,6 +4,11 @@ function timeConversion(s) {
   let minutes = +jacksplit[1];
   let secondTime = jacksplit[2];
 
+  // console.log('hours', hours);
+  // console.log('houminutesrs', minutes);
+  // console.log('secondTime', secondTime);
+
+
   if (secondTime.includes('AM')) {
     console.log('time is in AM');
     hours = hours - 12;
