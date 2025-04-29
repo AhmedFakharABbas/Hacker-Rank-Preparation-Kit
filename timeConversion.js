@@ -10,6 +10,8 @@ function timeConversion(s) {
     if (hours == 0) {
       hours = '00';
     }
+
+    
     let seconds = secondTime.replace('AM', '');
 
     console.log(`${hours}:${minutes}:${seconds}`);
