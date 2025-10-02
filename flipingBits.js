@@ -9,3 +9,4 @@ function flippingBits(n) {
   return parseInt(flippedBinaryString, 2);
 }
 console.log(flippingBits(3));
+
