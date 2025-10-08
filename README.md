@@ -4,6 +4,7 @@ This repository contains solutions for various **HackerRank** problems written i
 
 ## 📁 Project Structure
 
+
 - Each `.js` file = One problem
 - No external dependencies or frameworks
 - Written for clarity and ease of understanding
